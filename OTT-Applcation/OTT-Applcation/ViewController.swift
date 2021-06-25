@@ -9,12 +9,12 @@ import UIKit
 import SocialLogin
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         Validator.sayHello()
-        print("This email id is: ", Validator.validEmail("rahul@rahul.com"))
+        print("This email is valid: ", Validator.validEmail("rahul@rahul.com"))
     }
 
 }

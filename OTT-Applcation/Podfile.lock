@@ -1,0 +1,16 @@
+PODS:
+  - SocialLogin (1.0.0)
+
+DEPENDENCIES:
+  - SocialLogin (from `../../SocialLogin/SocialLogin`)
+
+EXTERNAL SOURCES:
+  SocialLogin:
+    :path: "../../SocialLogin/SocialLogin"
+
+SPEC CHECKSUMS:
+  SocialLogin: 3c43b51cbd9ced113b0b275ed54cbb07d368eeb9
+
+PODFILE CHECKSUM: 025e4c4dab1ce9082585b4ee9d7115a71cfe67d6
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E5C283838C4EA6B4F5DB22F3D98070A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		334402259C318DF74FF3877FA6A5A0A8 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C28E036F5226E2CFD11EFF2B57EE27 /* Validator.swift */; };
+		399555838EAC500C983E66421968BF9B /* SocialLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B27D0C225B55ABA616DDC2C69805D /* SocialLogin-dummy.m */; };
+		4E8899B2252FF761433A1371EACAF625 /* SocialLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 090982AC1663003CDC7A34F155A46CFA /* SocialLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6726280554B44DAB3EA79EDB93F747BC /* SignInWrappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABCD0E72612A0DEEEB263380D0482A /* SignInWrappable.swift */; };
+		7F2A2408F840CE4EA240691945467B67 /* AnAuthChangeNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF00D287C5D5A239A3AFF558C6E1F8F /* AnAuthChangeNotification.swift */; };
+		9ADBE57BB8DBA207D0A9B4530FE4B965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A5FA24EC4C3D684FE1EC2F8DEDB62F3C /* AppleSignInWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE87AADBCC7F692CA9B5364B2AD1F78 /* AppleSignInWrapper.swift */; };
+		BC7F756EBD6290542D3118D861C10EDA /* ANAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE68F645FB05BB91FB263FC549AC1396 /* ANAuthService.swift */; };
+		BD771B88BAA728F5F47AFF3941361A15 /* SignInModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D037DEB857943704DC6439A424DD8A9 /* SignInModels.swift */; };
+		BF4C5CB28F6E802398C3B16E4F91B118 /* Pods-OTT-Applcation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3853E56E7D941A704DAAFB6CE5DDA81A /* Pods-OTT-Applcation-dummy.m */; };
+		D5401285E22847A7DD34F42D3C40FE9E /* FBSignInWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2804DDCFFEE365499DF195670713D849 /* FBSignInWrapper.swift */; };
+		DE5A241C3BDB35F8D97FE0978CEB0F29 /* Pods-OTT-Applcation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9A77AC159D41E0CD3403BC46EC0891 /* Pods-OTT-Applcation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9C87D5EA47BB2429A141A2EF2C288B /* GoogleSignInWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA748C85BAB4B2CF8DDAB4F2C67BF00 /* GoogleSignInWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C062A39417813477CFDAAB5F1939082C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EF29981F7E9DF33AF2C8A8A89C32766;
+			remoteInfo = SocialLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090982AC1663003CDC7A34F155A46CFA /* SocialLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialLogin-umbrella.h"; sourceTree = "<group>"; };
+		0FD448E9E1136A2DE16047B168E10380 /* Pods-OTT-Applcation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTT-Applcation.release.xcconfig"; sourceTree = "<group>"; };
+		17ABCD0E72612A0DEEEB263380D0482A /* SignInWrappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInWrappable.swift; sourceTree = "<group>"; };
+		19B327D6F61FE712893DF665840D678E /* Pods-OTT-Applcation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTT-Applcation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2804DDCFFEE365499DF195670713D849 /* FBSignInWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FBSignInWrapper.swift; sourceTree = "<group>"; };
+		297B2205544B252DEB0FE9DD989C07FC /* SocialLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocialLogin.debug.xcconfig; sourceTree = "<group>"; };
+		2D037DEB857943704DC6439A424DD8A9 /* SignInModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInModels.swift; sourceTree = "<group>"; };
+		36A0BD19C74B61392F0CE25FB2D1D90A /* Pods-OTT-Applcation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTT-Applcation.modulemap"; sourceTree = "<group>"; };
+		3853E56E7D941A704DAAFB6CE5DDA81A /* Pods-OTT-Applcation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTT-Applcation-dummy.m"; sourceTree = "<group>"; };
+		3B9A77AC159D41E0CD3403BC46EC0891 /* Pods-OTT-Applcation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTT-Applcation-umbrella.h"; sourceTree = "<group>"; };
+		49BB015ACBF135D11A52DBE2DDDE6DB3 /* SocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocialLogin.framework; path = SocialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9B27D0C225B55ABA616DDC2C69805D /* SocialLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocialLogin-dummy.m"; sourceTree = "<group>"; };
+		6EE87AADBCC7F692CA9B5364B2AD1F78 /* AppleSignInWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppleSignInWrapper.swift; sourceTree = "<group>"; };
+		71A7B279C029DBA0C0B44DCF3843CB79 /* SocialLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocialLogin-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74B8DC96A0EA58E54DF22873E4657D06 /* Pods-OTT-Applcation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTT-Applcation-frameworks.sh"; sourceTree = "<group>"; };
+		7ABEFD2A2F52E5BEDFEAC483AC700B21 /* Pods-OTT-Applcation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTT-Applcation.debug.xcconfig"; sourceTree = "<group>"; };
+		7CB42CD7B04CA8D38B1C4F3C5B118C93 /* SocialLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocialLogin.release.xcconfig; sourceTree = "<group>"; };
+		7F348BDE0C65F9E2B7CBDFF907132F8B /* SocialLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocialLogin.modulemap; sourceTree = "<group>"; };
+		8FF00D287C5D5A239A3AFF558C6E1F8F /* AnAuthChangeNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnAuthChangeNotification.swift; sourceTree = "<group>"; };
+		977FC7ABC0EFEB92722235D6197E9BD1 /* Pods-OTT-Applcation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTT-Applcation-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF220883466F7289C49093EBF4AC623 /* Pods-OTT-Applcation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTT-Applcation-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6DAB59F47F5B22638E2044A044180E5 /* SocialLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialLogin-prefix.pch"; sourceTree = "<group>"; };
+		AC52F27E99B716D81876A3E0A21CAD24 /* SocialLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SocialLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEA748C85BAB4B2CF8DDAB4F2C67BF00 /* GoogleSignInWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoogleSignInWrapper.swift; sourceTree = "<group>"; };
+		E1C28E036F5226E2CFD11EFF2B57EE27 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		E31EEE94BE3C1C23C2CBF49E593A196A /* Pods_OTT_Applcation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTT_Applcation.framework; path = "Pods-OTT-Applcation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE68F645FB05BB91FB263FC549AC1396 /* ANAuthService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANAuthService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D80967BAB9ACF641A3AA1485644671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5C283838C4EA6B4F5DB22F3D98070A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065D76003AB51A336BC7C0A6DA090470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADBE57BB8DBA207D0A9B4530FE4B965 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A24C2205A6F0A8E112BB596783670D8 /* SocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2A17F00EA90FF3CDEF9D6143F62E9A0D /* LoginServices */,
+				D6297EBEE3A045311C8F198D7BA25CAE /* Pod */,
+				3BE7648D9C1DA3D1694ED79D1E43A7E0 /* Support Files */,
+				EB28B9C837C328215530C5CB6F64A070 /* TestGroup */,
+			);
+			name = SocialLogin;
+			path = ../../../SocialLogin/SocialLogin;
+			sourceTree = "<group>";
+		};
+		2A17F00EA90FF3CDEF9D6143F62E9A0D /* LoginServices */ = {
+			isa = PBXGroup;
+			children = (
+				8FF00D287C5D5A239A3AFF558C6E1F8F /* AnAuthChangeNotification.swift */,
+				FE68F645FB05BB91FB263FC549AC1396 /* ANAuthService.swift */,
+				6EE87AADBCC7F692CA9B5364B2AD1F78 /* AppleSignInWrapper.swift */,
+				2804DDCFFEE365499DF195670713D849 /* FBSignInWrapper.swift */,
+				AEA748C85BAB4B2CF8DDAB4F2C67BF00 /* GoogleSignInWrapper.swift */,
+				2D037DEB857943704DC6439A424DD8A9 /* SignInModels.swift */,
+				17ABCD0E72612A0DEEEB263380D0482A /* SignInWrappable.swift */,
+			);
+			name = LoginServices;
+			path = SocialLogin/LoginServices;
+			sourceTree = "<group>";
+		};
+		3BE7648D9C1DA3D1694ED79D1E43A7E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F348BDE0C65F9E2B7CBDFF907132F8B /* SocialLogin.modulemap */,
+				4C9B27D0C225B55ABA616DDC2C69805D /* SocialLogin-dummy.m */,
+				71A7B279C029DBA0C0B44DCF3843CB79 /* SocialLogin-Info.plist */,
+				A6DAB59F47F5B22638E2044A044180E5 /* SocialLogin-prefix.pch */,
+				090982AC1663003CDC7A34F155A46CFA /* SocialLogin-umbrella.h */,
+				297B2205544B252DEB0FE9DD989C07FC /* SocialLogin.debug.xcconfig */,
+				7CB42CD7B04CA8D38B1C4F3C5B118C93 /* SocialLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../OTT-Application/OTT-Applcation/Pods/Target Support Files/SocialLogin";
+			sourceTree = "<group>";
+		};
+		541FDE73F813873B5E9EBA3942763545 /* Pods-OTT-Applcation */ = {
+			isa = PBXGroup;
+			children = (
+				36A0BD19C74B61392F0CE25FB2D1D90A /* Pods-OTT-Applcation.modulemap */,
+				19B327D6F61FE712893DF665840D678E /* Pods-OTT-Applcation-acknowledgements.markdown */,
+				9EF220883466F7289C49093EBF4AC623 /* Pods-OTT-Applcation-acknowledgements.plist */,
+				3853E56E7D941A704DAAFB6CE5DDA81A /* Pods-OTT-Applcation-dummy.m */,
+				74B8DC96A0EA58E54DF22873E4657D06 /* Pods-OTT-Applcation-frameworks.sh */,
+				977FC7ABC0EFEB92722235D6197E9BD1 /* Pods-OTT-Applcation-Info.plist */,
+				3B9A77AC159D41E0CD3403BC46EC0891 /* Pods-OTT-Applcation-umbrella.h */,
+				7ABEFD2A2F52E5BEDFEAC483AC700B21 /* Pods-OTT-Applcation.debug.xcconfig */,
+				0FD448E9E1136A2DE16047B168E10380 /* Pods-OTT-Applcation.release.xcconfig */,
+			);
+			name = "Pods-OTT-Applcation";
+			path = "Target Support Files/Pods-OTT-Applcation";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65A3B15383D4E398B6FEB7776BEFC0CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A24C2205A6F0A8E112BB596783670D8 /* SocialLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		724C962A51D6DE4EA874D173070A7C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31EEE94BE3C1C23C2CBF49E593A196A /* Pods_OTT_Applcation.framework */,
+				49BB015ACBF135D11A52DBE2DDDE6DB3 /* SocialLogin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				65A3B15383D4E398B6FEB7776BEFC0CC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				724C962A51D6DE4EA874D173070A7C2F /* Products */,
+				E1BE1F96E1DA4B5E8CBB5834B584DCF5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6297EBEE3A045311C8F198D7BA25CAE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC52F27E99B716D81876A3E0A21CAD24 /* SocialLogin.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E1BE1F96E1DA4B5E8CBB5834B584DCF5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				541FDE73F813873B5E9EBA3942763545 /* Pods-OTT-Applcation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB28B9C837C328215530C5CB6F64A070 /* TestGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E1C28E036F5226E2CFD11EFF2B57EE27 /* Validator.swift */,
+			);
+			name = TestGroup;
+			path = SocialLogin/TestGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C0C0A87CC291CBE2A26273CE2FA2084 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5A241C3BDB35F8D97FE0978CEB0F29 /* Pods-OTT-Applcation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EA159C578FF15DF9A58925DAEA532B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8899B2252FF761433A1371EACAF625 /* SocialLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EF29981F7E9DF33AF2C8A8A89C32766 /* SocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82C0E5AF512C331493BF750E89D0180 /* Build configuration list for PBXNativeTarget "SocialLogin" */;
+			buildPhases = (
+				42EA159C578FF15DF9A58925DAEA532B /* Headers */,
+				241F28F2534D799829508D16B9E757A3 /* Sources */,
+				05D80967BAB9ACF641A3AA1485644671 /* Frameworks */,
+				1025E9A6AEA61D1FF8A3D695DEE5E846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialLogin;
+			productName = SocialLogin;
+			productReference = 49BB015ACBF135D11A52DBE2DDDE6DB3 /* SocialLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		352B5DF285679E41F9459EB7FF9AF84B /* Pods-OTT-Applcation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772DF1A98CFF09440DBCE1566BD4ABE7 /* Build configuration list for PBXNativeTarget "Pods-OTT-Applcation" */;
+			buildPhases = (
+				3C0C0A87CC291CBE2A26273CE2FA2084 /* Headers */,
+				2935FCB943EAE9CF49E188229108EC82 /* Sources */,
+				065D76003AB51A336BC7C0A6DA090470 /* Frameworks */,
+				AEABCCED864712073D9E39639623CCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DFA02F9114CA4BE1915139439D9B6A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-OTT-Applcation";
+			productName = "Pods-OTT-Applcation";
+			productReference = E31EEE94BE3C1C23C2CBF49E593A196A /* Pods_OTT_Applcation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 724C962A51D6DE4EA874D173070A7C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				352B5DF285679E41F9459EB7FF9AF84B /* Pods-OTT-Applcation */,
+				0EF29981F7E9DF33AF2C8A8A89C32766 /* SocialLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1025E9A6AEA61D1FF8A3D695DEE5E846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEABCCED864712073D9E39639623CCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241F28F2534D799829508D16B9E757A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2A2408F840CE4EA240691945467B67 /* AnAuthChangeNotification.swift in Sources */,
+				BC7F756EBD6290542D3118D861C10EDA /* ANAuthService.swift in Sources */,
+				A5FA24EC4C3D684FE1EC2F8DEDB62F3C /* AppleSignInWrapper.swift in Sources */,
+				D5401285E22847A7DD34F42D3C40FE9E /* FBSignInWrapper.swift in Sources */,
+				FD9C87D5EA47BB2429A141A2EF2C288B /* GoogleSignInWrapper.swift in Sources */,
+				BD771B88BAA728F5F47AFF3941361A15 /* SignInModels.swift in Sources */,
+				6726280554B44DAB3EA79EDB93F747BC /* SignInWrappable.swift in Sources */,
+				399555838EAC500C983E66421968BF9B /* SocialLogin-dummy.m in Sources */,
+				334402259C318DF74FF3877FA6A5A0A8 /* Validator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2935FCB943EAE9CF49E188229108EC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4C5CB28F6E802398C3B16E4F91B118 /* Pods-OTT-Applcation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DFA02F9114CA4BE1915139439D9B6A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocialLogin;
+			target = 0EF29981F7E9DF33AF2C8A8A89C32766 /* SocialLogin */;
+			targetProxy = C062A39417813477CFDAAB5F1939082C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D2194D8B10D2F9C161BDB181289E862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD448E9E1136A2DE16047B168E10380 /* Pods-OTT-Applcation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2CF912487C28CC9310F00F109C46C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297B2205544B252DEB0FE9DD989C07FC /* SocialLogin.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocialLogin/SocialLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocialLogin/SocialLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocialLogin/SocialLogin.modulemap";
+				PRODUCT_MODULE_NAME = SocialLogin;
+				PRODUCT_NAME = SocialLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE8D9870175AEFB0261B78CD4B521046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB42CD7B04CA8D38B1C4F3C5B118C93 /* SocialLogin.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocialLogin/SocialLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocialLogin/SocialLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocialLogin/SocialLogin.modulemap";
+				PRODUCT_MODULE_NAME = SocialLogin;
+				PRODUCT_NAME = SocialLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD2E62F617E38B42C6F5F76614B02F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABEFD2A2F52E5BEDFEAC483AC700B21 /* Pods-OTT-Applcation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772DF1A98CFF09440DBCE1566BD4ABE7 /* Build configuration list for PBXNativeTarget "Pods-OTT-Applcation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2E62F617E38B42C6F5F76614B02F17 /* Debug */,
+				2D2194D8B10D2F9C161BDB181289E862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82C0E5AF512C331493BF750E89D0180 /* Build configuration list for PBXNativeTarget "SocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CF912487C28CC9310F00F109C46C6B /* Debug */,
+				BE8D9870175AEFB0261B78CD4B521046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

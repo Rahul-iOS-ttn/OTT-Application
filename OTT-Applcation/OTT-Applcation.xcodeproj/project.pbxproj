@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C685F705A471F7B99C0B6F /* Pods_OTT_Applcation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D4093DA0C031ED41CB6371 /* Pods_OTT_Applcation.framework */; };
 		4568D81F268334F400E311E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568D81E268334F400E311E8 /* AppDelegate.swift */; };
 		4568D821268334F400E311E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568D820268334F400E311E8 /* SceneDelegate.swift */; };
 		4568D823268334F400E311E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568D822268334F400E311E8 /* ViewController.swift */; };
 		4568D826268334F400E311E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4568D824268334F400E311E8 /* Main.storyboard */; };
 		4568D828268334F500E311E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4568D827268334F500E311E8 /* Assets.xcassets */; };
 		4568D82B268334F500E311E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4568D829268334F500E311E8 /* LaunchScreen.storyboard */; };
-		45CFCF5526833B230092E46A /* SocialLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CFCF53268338CA0092E46A /* SocialLogin.framework */; };
-		45CFCF5626833B230092E46A /* SocialLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45CFCF53268338CA0092E46A /* SocialLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45CFCF5626833B230092E46A /* SocialLogin.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08D4093DA0C031ED41CB6371 /* Pods_OTT_Applcation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTT_Applcation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3B4CA019F35DFDEC1B8D91 /* Pods-OTT-Applcation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTT-Applcation.release.xcconfig"; path = "Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation.release.xcconfig"; sourceTree = "<group>"; };
 		4568D81B268334F400E311E8 /* OTT-Applcation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTT-Applcation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4568D81E268334F400E311E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4568D820268334F400E311E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		4568D827268334F500E311E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4568D82A268334F500E311E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4568D82C268334F500E311E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45CFCF53268338CA0092E46A /* SocialLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocialLogin.framework; sourceTree = "<group>"; };
+		771F00AF64EBC434C2ADB0FC /* Pods-OTT-Applcation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTT-Applcation.debug.xcconfig"; path = "Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,18 +48,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CFCF5526833B230092E46A /* SocialLogin.framework in Frameworks */,
+				41C685F705A471F7B99C0B6F /* Pods_OTT_Applcation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A15FDC61229FCF740A05930 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				771F00AF64EBC434C2ADB0FC /* Pods-OTT-Applcation.debug.xcconfig */,
+				0E3B4CA019F35DFDEC1B8D91 /* Pods-OTT-Applcation.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4568D812268334F400E311E8 = {
 			isa = PBXGroup;
 			children = (
 				4568D81D268334F400E311E8 /* OTT-Applcation */,
 				4568D81C268334F400E311E8 /* Products */,
+				2A15FDC61229FCF740A05930 /* Pods */,
+				DB366042A758DD7BE403EAF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,9 +93,16 @@
 				4568D827268334F500E311E8 /* Assets.xcassets */,
 				4568D829268334F500E311E8 /* LaunchScreen.storyboard */,
 				4568D82C268334F500E311E8 /* Info.plist */,
-				45CFCF53268338CA0092E46A /* SocialLogin.framework */,
 			);
 			path = "OTT-Applcation";
+			sourceTree = "<group>";
+		};
+		DB366042A758DD7BE403EAF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08D4093DA0C031ED41CB6371 /* Pods_OTT_Applcation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,10 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4568D82F268334F500E311E8 /* Build configuration list for PBXNativeTarget "OTT-Applcation" */;
 			buildPhases = (
+				853B949316D3ACDD72110C0F /* [CP] Check Pods Manifest.lock */,
 				4568D817268334F400E311E8 /* Sources */,
 				4568D818268334F400E311E8 /* Frameworks */,
 				4568D819268334F400E311E8 /* Resources */,
 				4568D8372683357800E311E8 /* Embed Frameworks */,
+				2816C835B7C46B66BED07144 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +172,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2816C835B7C46B66BED07144 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853B949316D3ACDD72110C0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTT-Applcation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4568D817268334F400E311E8 /* Sources */ = {
@@ -303,6 +366,7 @@
 		};
 		4568D830268334F500E311E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771F00AF64EBC434C2ADB0FC /* Pods-OTT-Applcation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +389,7 @@
 		};
 		4568D831268334F500E311E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3B4CA019F35DFDEC1B8D91 /* Pods-OTT-Applcation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

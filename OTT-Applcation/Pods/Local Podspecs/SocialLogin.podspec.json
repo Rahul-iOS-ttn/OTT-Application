@@ -1,0 +1,21 @@
+{
+  "name": "SocialLogin",
+  "version": "1.0.0",
+  "summary": "This is a dynamic library for handling Social login",
+  "description": "This library is for handling the social login for multiple instances",
+  "homepage": "https://github.com/Rahul-iOS-ttn/SocialLogin",
+  "license": "MIT",
+  "authors": {
+    "Rahul-iOS-ttn": "rahul.sharma1@tothenew.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/Rahul-iOS-ttn/SocialLogin.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "SocialLogin/**/*.{swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
