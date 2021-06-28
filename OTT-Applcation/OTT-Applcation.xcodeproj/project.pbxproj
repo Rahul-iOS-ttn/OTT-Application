@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,7 +61,6 @@
 				771F00AF64EBC434C2ADB0FC /* Pods-OTT-Applcation.debug.xcconfig */,
 				0E3B4CA019F35DFDEC1B8D91 /* Pods-OTT-Applcation.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,6 +117,7 @@
 				4568D819268334F400E311E8 /* Resources */,
 				4568D8372683357800E311E8 /* Embed Frameworks */,
 				2816C835B7C46B66BED07144 /* [CP] Embed Pods Frameworks */,
+				71983B96FAADDBC6BFD0A22E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,6 +189,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71983B96FAADDBC6BFD0A22E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTT-Applcation/Pods-OTT-Applcation-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		853B949316D3ACDD72110C0F /* [CP] Check Pods Manifest.lock */ = {
@@ -376,6 +393,7 @@
 					"$(PROJECT_DIR)/OTT-Applcation",
 				);
 				INFOPLIST_FILE = "OTT-Applcation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,6 +417,7 @@
 					"$(PROJECT_DIR)/OTT-Applcation",
 				);
 				INFOPLIST_FILE = "OTT-Applcation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

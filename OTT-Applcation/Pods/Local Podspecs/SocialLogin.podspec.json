@@ -16,6 +16,18 @@
     "tag": "1.0.0"
   },
   "source_files": "SocialLogin/**/*.{swift}",
+  "static_framework": true,
+  "dependencies": {
+    "KeychainAccess": [
+      "~> 4.2"
+    ],
+    "FBSDKLoginKit": [
+      "~> 11.0"
+    ],
+    "GoogleSignIn": [
+      "~> 5.0"
+    ]
+  },
   "swift_versions": "5.0",
   "swift_version": "5.0"
 }

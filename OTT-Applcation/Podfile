@@ -7,5 +7,6 @@ target 'OTT-Applcation' do
 
   # Pods for OTT-Applcation
   pod 'SocialLogin', :path=> '../../SocialLogin/SocialLogin'
+#  pod 'SocialLogin/KeychainAccess', :path=> '../../SocialLogin/SocialLogin/'
 
 end
